@@ -11,7 +11,7 @@ use Laradic\Support\ServiceProvider;
 * @copyright  Copyright (c) 2015, Codex Project
 * @license      http://mit-license.org MIT
 */
-class IlluminateFoundationServiceProvider extends ServiceProvider
+class FoundationServiceProvider extends ServiceProvider
 {
     protected $dir = __DIR__;
 

@@ -1,8 +1,6 @@
 {
     "name": "laradic/illuminate-foundation",
-    "type": "platform-extension",
     "description": "laradic/illuminate-foundation is a laravel package",
-    "repositories": [{"type": "composer", "url": "http://packages.sebwite.nl"}],
     "authors": [
         {
             "name": "Robin Radic",
@@ -14,17 +12,9 @@
         "php": ">=5.5.9",
         "laradic/support": "1.0.*"
     },
-    "require": {
-        "laradic/testing": "1.0.*"
-    },
     "autoload": {
         "psr-4": {
-            "Laradic\\IlluminateFoundation\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Laradic\\IlluminateFoundation\\Tests\\": "tests/"
+            "Illuminate\\Foundation\\": "src/"
         }
     },
     "extra": {
